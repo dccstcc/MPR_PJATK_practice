@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: pl.edu.pjatk.mpr.lab5.test.OrdersServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.419 sec <<< FAILURE! - in pl.edu.pjatk.mpr.lab5.test.OrdersServiceTest
+pl.edu.pjatk.mpr.lab5.test.OrdersServiceTest  Time elapsed: 0.239 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.mockito.internal.creation.MockSettingsImpl.initiateMockName(Ljava/lang/Class;)V
+	at org.powermock.api.mockito.internal.mockcreation.MockCreator.createMethodInvocationControl(MockCreator.java:97)
+	at org.powermock.api.mockito.internal.mockcreation.MockCreator.mock(MockCreator.java:58)
+	at org.powermock.api.mockito.PowerMockito.mock(PowerMockito.java:138)
+	at org.powermock.api.extension.listener.AnnotationEnabler.standardInject(AnnotationEnabler.java:83)
+	at org.powermock.api.extension.listener.AnnotationEnabler.beforeTestMethod(AnnotationEnabler.java:49)
+	at org.powermock.tests.utils.impl.PowerMockTestNotifierImpl.notifyBeforeTestMethod(PowerMockTestNotifierImpl.java:90)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:307)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:297)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:86)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:49)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:222)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:161)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:135)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:33)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:45)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:133)
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:112)
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:57)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+
